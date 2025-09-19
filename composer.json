@@ -2,8 +2,7 @@
   "name": "wp-pegj/pegj",
   "description": "WordPress support classes.",
   "type": "library",
-  "version": "1.0.0",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Paul Edmund Janubas"
