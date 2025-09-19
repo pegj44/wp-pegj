@@ -106,9 +106,7 @@ trait AjaxTrait
 
     public function enqueue_ajax_scripts()
     {
-        if (class_exists('Pegj\Support\Templates\Template')) {
-            \Pegj\Support\Templates\Template::enqueue_script('pegj', [], [], true);
-        }
+        wp_enqueue_script('wp-pegj', pegj_get_vendor_url(__DIR__ . '/scripts/pegj.js'), [], '1.0.0', true);
     }
 
     /**
