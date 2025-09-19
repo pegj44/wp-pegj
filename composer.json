@@ -3,6 +3,7 @@
   "description": "WordPress support classes.",
   "type": "library",
   "version": "1.0.0",
+  "license": "GNU General Public License v3.0",
   "authors": [
     {
       "name": "Paul Edmund Janubas"
